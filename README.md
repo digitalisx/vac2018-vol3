@@ -50,6 +50,23 @@ Note, this profile only supports `linux.psscan`.
 > cp ubuntu1404.json ~/volatility3/volatility3/symbols/linux/ubuntu1404.json
 ```
 
+```shell
+> python3 vol.py -f DB_SERVER.vmem linux.psscan
+Volatility 3 Framework 2.5.0
+ERROR    volatility3.framework.automagic.linux: swapper_pg_dirScanner      
+Progress:  100.00               Stacking attempts finished                 
+OFFSET (P)      PID     TID     PPID    COMM    EXIT_STATE
+
+0x140000        175     175     0       scsi_tmf_13     TASK_RUNNING
+0x140a00        176     176     0       scsi_eh_14      TASK_RUNNING
+0x141400        177     177     0       scsi_tmf_14     TASK_RUNNING
+0x141e00        178     178     0       scsi_eh_15      TASK_RUNNING
+0x142800        179     179     0       scsi_tmf_15     TASK_RUNNING
+0x143200        180     180     0       scsi_eh_16      TASK_RUNNING
+0x143c00        181     181     0       scsi_tmf_16     TASK_RUNNING
+0x144600        182     182     0       scsi_eh_17      TASK_RUNNING
+```
+
 ## Organizer
 - Dongbin Oh ([@sinsin9090](https://github.com/sinsin9090))
 - Donghyun Kim ([@digitalisx](https://github.com/digitalisx))
