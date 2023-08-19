@@ -52,8 +52,7 @@ Note, this profile only supports `linux.psscan`.
 
 ```shell
 > python3 vol.py -f DB_SERVER.vmem linux.psscan
-Volatility 3 Framework 2.5.0
-ERROR    volatility3.framework.automagic.linux: swapper_pg_dirScanner      
+Volatility 3 Framework 2.5.0   
 Progress:  100.00               Stacking attempts finished                 
 OFFSET (P)      PID     TID     PPID    COMM    EXIT_STATE
 
